@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Personal Portfolio Website using HTML and CSS | Codehal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(19, 20, 20);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+     font-size: 2em;
+      font-weight: bold;
+      background: linear-gradient(90deg, #fff, #f0f, #0ff, #fff);
+      background-size: 200% auto;
+      color: #000;
+      cursor: default;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 2s linear infinite;
+    }
+
+    @keyframes logo {
+      to {
+        background-position: 200% center;
+      }
+    }
+.logo span {
+    color: #7d2ae8;
+}
+.navigation {
+    margin-left: -300px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #fcf7f7;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color: #7d2ae8;
+}
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+    background-color: #fff;
+}
+#home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+     background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+#about {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+     background-color: #b9daec;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    justify-content: center;
+}
+#Education {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #ebf8a2;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    justify-content: center;
+}
+#Skills {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #eec1e0;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    justify-content: center;
+}
+#Contact {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #8dfcb0;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    justify-content: center;
+}
+}
+.content {
+    max-width: 500px;
+    color: #eee4e4;
+}
+ #Contact>div{
+            text-align: center;
+        }
+ #about>ul>li{
+    list-style-type: none;
+ }
+.content h3{
+    font-size: 2em;
+}
+.content h2 {
+    font-size: 3em;
+}
+.content h2 span {
+    color: #7d2ae8;
+}
+.content h4 {
+    font-size: 2em;
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:hover:nth-child(1) {
+    color: #7d2ae8;
+    background: transparent;
+}
+.btn-group a:nth-child(2) {
+    color: #7d2ae8;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: #7d2ae8;
+}
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+.social-icons a i {
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>V</span>enigalla.</h2><br>
+        <nav class="navigation">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Education">Education</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+        <a href="#" class="btn-talk">Let's Talk</a>
+    </header>
+    <section id="home" class="section">
+        <div class="content">
+            <h2>Hi, I'm <span>Venigalla kiranmai</span></h2>
+            <h4>Frontend Developer</h4>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Believe in yourself even when life feels difficult. Hard work and courage can change your future. Every small effort you make today builds the strong and successful person you will become tomorrow."</p>
+            <div class="btn-group">
+                <a href="#">Hire Me</a>
+                <a href="c:\Users\naniv\OneDrive\Documents\MyProjects" target="_blank">See Projects</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kiranmai-venigalla-7a4216308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/__miss.marvelous_01" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="mailto:venigallakiranmai144@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="section">
+       <div class="content">
+        <h3  align="center">Intorduction About MySelf</h3>
+        <p>Hello! <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm Kiranmai, a passionate and dedicated final-year B.Tech student with a strong interest in technology, innovation, and problem-solving. As I approach the completion of my undergraduate journey, I have been actively building my skills through academic projects, hands-on experience, and continuous learning.</p>
+               <ul>
+                <li>Coding on Different Platforms like Leetcode, Codevita, Hackerrank.</li>
+                <li>Participating coding quizzes</li>
+                <li>Building Small Applications for fun</li>
+                <li>Reading books</li>
+                <li>Listening and Singing Songs</li>
+                <li>Dancing</li>
+                <li>Drawings etc.,</li>
+                <li>Learning new languages</li>
+               </ul>
+       </div>
+    </section>
+    <section id="Education" class="section">
+        <div>
+        <h1 align="center">EDUCATION</h1>
+<div>➢ 2022-2026 :: B.Tech in RV Institute of Technology, Chebrolu, Guntur, Andhrapradesh.<br>
+➢ 2020-2022 :: Intermediate in Sri Chaitanya Jr College, Guntur, Andhrapradesh.<br>
+➢ 2015-2020 :: SSC(6-10) in Sri Surya Teja High School, Guntur, Andhrapradesh.<br>
+➢ 2010-2015 :: SSC(1-5) in Sri Surya Teja High School, Guntur, Andhrapradesh.<br></div><br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am a STUDENT studying in B.Tech. I want to Build Myself by using my skills.
+I want to experience the journey with you all ahead.
+I have participated in some internships.<br>
+<h4 align="center">INTERNSHIPS</h4><br>
+<b>PYTHON FULL STACK:</b>
+May 2024 – July 2024
+I have successfully completed 6 week Short-Term internship on PYTHON FULL STACK organized
+by ExcelR Edtech pvt.Ltd. in collaboration with Andhra Pradesh State Council of Higher
+Educatation<br>
+<b>DevOps:</b>
+September 2024 – September 2024
+Completed an intensive 6 days DevOps workshop focusing on CI/CD,automation.<br>
+<b>PARTICIPATION:</b>
+•<u>NEXTWAVE :: </u>Participated in the workshop ‘AI for Students :Build your Own
+Generative AI Model’ conducted by AI expert and IIT Delhi alumnus, Mr
+Trivikrama.,<br>
+•<u>TATA CRUCIBLE :: </u>Participated in the TATA Crucible Campus Quiz 2024
+Organized by TATA Group From Unstop.</p>
+      </div>
+    </section>
+    <section id="Skills" class="section">
+        <div>
+            <h2 align="center">Skills</h2>        
+        <p><b>Small Projects:</b><br>
+I have built mini projects on the basis of my knowledge about HTML, CSS as a fresher and I’m
+also excited to know more and want to build many more projects based on Frontend.
+The small Projects I have built:<br>
+<u>➢ FORMS:</u>
+I have built Many Forms example Storing Student information that consists of Name,
+Age, Numbers. For this I have used many components
+SIMPLE FORM and LOGIN FORM: I have built Login forms and Simple forms using many
+components like radio buttons, checklists, dropdown, uploading files, storing address,
+calendar, uploading photo etc.,<br>
+<u>➢ CALCULATOR:</u>
+I have built front view of Calculator using Grid-Container component and emojis etc
+which gives calculator vibes. I ‘m working on the Deployment phase. Once deployment is
+done then it will be available to use.I am currently building small applications</p><br>
+</div>
+</section>
+    <section id="Contact" class="section">
+       <div><b> VENIGALLA KIRANMAI<br>
+Email: venigallakiranmai144@gmail.com<br>
+Ph no: 9876543210</b><br></div>
+    </section>
+</body>
+</html>
