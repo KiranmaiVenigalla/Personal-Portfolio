@@ -14,8 +14,7 @@ MENTOR : NEELA SANTHOS
 
 PROJECT DESCRIPTION :  Personal-Portfolio
      A personal portfolio website serves as an online resume and showcase for developers, designers, or anyone working in the tech industry. It demonstrates the individual’s technical abilities, design sense, and personal style, acting as a first impression for potential employers, clients, or collaborators.
-     
-     For this project, interns are required to create a single-page, fully responsive portfolio site. This means the webpage should look good and function smoothly on various screen sizes, from desktop computers to tablets and mobile phones. Responsiveness is a critical aspect of modern web development, ensuring that users have a positive experience regardless of the device they use to access the site.
+       For this project, interns are required to create a single-page, fully responsive portfolio site. This means the webpage should look good and function smoothly on various screen sizes, from desktop computers to tablets and mobile phones. Responsiveness is a critical aspect of modern web development, ensuring that users have a positive experience regardless of the device they use to access the site.
      
 Core Requirements
       The main objective is to use only HTML and CSS to build the website — no backend coding or advanced frameworks are involved, making it beginner-friendly but still meaningful. The portfolio should include essential sections such as
