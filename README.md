@@ -25,3 +25,15 @@ Learning Outcomes
       
 Deliverable and Certification
       Upon successful completion of this task, interns are required to submit their portfolio as per CodTech’s guidelines. The deliverable is a clean, working single-page portfolio site with functional navigation. Once all internship tasks are completed, CodTech will issue a Completion Certificate, validating the intern’s learning journey and practical experience.
+
+OutPut :
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/5d5e9d33-2e0c-4101-9855-a6925916e840" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/32358744-f9b7-4e85-aca0-c7dc94f4d298" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/90fc422b-f876-4e8a-856e-6f04b405e33b" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/4bdfcdf2-0c0c-4100-ace8-8d6eec407ad0" />
+
+<img width="1366" height="768" alt="Image" src="https://github.com/user-attachments/assets/6b018eef-b647-4bfb-aa18-3253a1e32d10" />
